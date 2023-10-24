@@ -1,0 +1,39 @@
+.section {
+  color: #666666;
+}
+
+h1, h2, h3, h4, h5, .moves {
+  color: black;
+}
+
+.section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.moves  {
+  font-family: 'Chess', Arial, sans-serif;
+  font-weight: bold;
+}
+
+
+.underline {
+  padding: 0 30px;
+  border-bottom: 2px solid black;
+}
+
+.align-left {
+  align-self: flex-start;
+  text-align: left;
+}
+
+
+.two-column {
+  display: flex;
+}
+
+.textlines {
+  display: flex;
+  gap: 0.3em;
+}

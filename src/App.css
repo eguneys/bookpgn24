@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'Chess';
+  src: url('../public/lichess.chess.woff2') format('woff2'),
+  url('../public/lichess.chess.woff') format('woff');
+}
